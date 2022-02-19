@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Footer from '../../components/patterns/Footer'
 import { NextLink } from '../../components/Link'
 import { theme } from '../../components/theme/theme';
@@ -21,6 +22,10 @@ function SideImage() {
         }
       }}
     >
+      <Head>
+        <title>Home Alura Cases</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Box
         styleSheet={{
           top: 0,
